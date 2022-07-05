@@ -1,0 +1,11 @@
+<webapps>
+	<servlet>
+		<servlet-name>time</servlet-name>
+		<servlet-class>com.atig.servlet.TimeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>time</servlet-name>
+		<url-pattern>/timeurl</url-pattern>
+	</servlet-mapping>
+
+</webapps>
