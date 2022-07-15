@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+	<style>
+		h1{
+			background-color:#ffffCf;
+			height:100px;
+		}
+		div{
+			background-color:pink;
+			text-align:center;
+			color:blue;
+		}
+		form{
+			background-image:url('kitty..jpg');
+			font-size:20px;
+		}
+	</style>
+
+</head>
+<body bgcolor="forestgreen">
+	<h1>Let's check whether you're eligible for marriage or not</h1>
+	<div>
+		<form action="http://localhost:1010/MarriageApp/murl" method="GET">
+			Enter name      ::<input type="text" name="name"><br><br>
+			Enter Gender   :: <input list="genders" type="text" name="gender"><br><br>	
+			Enter Age        :: <input type="text" name="Age"><br><br>
+			<input type="submit" name="marriage">
+			<datalist id="genders">
+				<option value="female">
+				<option value="male">
+			</datalist>			
+			
+		</form>
+	</div>
+</body>
+</html>
